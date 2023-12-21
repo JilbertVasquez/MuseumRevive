@@ -634,6 +634,7 @@ body {
 
 #aboutus-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     max-width: 80%;
     height: 67%;
