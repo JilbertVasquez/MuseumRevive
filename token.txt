@@ -1,0 +1,6 @@
+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
+
+git remote add origin https://[TOKEN]@github.com/[REPO-OWNER]/[REPO-NAME]
+
+git remote add origin https://[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]@github.com/JilbertVasquez/MuseumRevive
+

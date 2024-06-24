@@ -4,6 +4,11 @@
     scroll-behavior: smooth;
 }
 
+body {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
 #container {
     background-color: #fff;
     display: flex;
@@ -195,6 +200,7 @@
 /* ================================================================================================================= */
 
 #menu-bar i {
+    display: none;
     font-size: 24px;
     margin: 26px 40px 0px 0px;
     /* display: none; */
@@ -206,7 +212,7 @@
     right: 0;
     height: 100%;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -383,6 +389,7 @@
 
     #menu-bar i {
         font-size: 48px;
+        display: flex;
     }
 
 }
