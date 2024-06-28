@@ -4,11 +4,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-}
-
 #container {
     background-color: #fff;
     display: flex;
@@ -25,7 +20,11 @@ body {
     justify-content: flex-end;
     flex-direction: row;
     padding-top: 1%;
+    /* margin-top: 20px; */
+    /* border-top: 3px solid black; */
+    /* background-color: #F5F4EF; */
     width: 100vw;
+    /* border-bottom: 1px solid black; */
 }
 
 #logopicture {
@@ -46,6 +45,8 @@ body {
 }
 
 #backhome {
+    /* background-color: #F5F4EF; */
+    /* padding: 16px; */
     font-size: 16px;
     border: none;
 }
@@ -59,6 +60,8 @@ body {
     display: block;
     text-align: center;
     text-transform: uppercase;
+    /* background-color: yellow; */
+    /* width: 150px; */
 }
 
 #aboutus a {
@@ -66,11 +69,13 @@ body {
 }
 
 .btn {
+    /* background-color: #F5F4EF; */
     background-color: #fff;
     color: #53524A;
     padding: 10px 8px;
     font-size: 16px;
     border: none;
+    /* background-color: yellow; */
     font-family: Georgia, serif;
 }
 
@@ -93,6 +98,7 @@ body {
 }
 
 .content a {
+    /* background-color: #F5F4EF; */
     background-color: 	#fff;
     color: #53524A;
     padding: 20px 25px;
@@ -105,6 +111,7 @@ body {
 
 .content a:hover {
     color: blue;
+    /* background-color: #F5F4EF; */
     background-color: 	#53524A;
     color: #fff;
 }
@@ -115,21 +122,25 @@ body {
 }
 
 .dropdown:hover .btn {
+    /* background-color: 	#F5F4EF; */
     background-color: 	#fff;   
     border-bottom: 3px solid black;
 }
 
 #backhome:hover, #aboutus2:hover {
+    /* background-color: 	#F5F4EF; */
     background-color: 	#fff;
     border-bottom: 3px solid black;
 }   
 
 .btn2 {
+    /* background-color: #F5F4EF; */
     background-color: #fff;
     color: #53524A;
     padding: 10px 45px 0px 0px;
     font-size: 16px;
     border: none;
+    /* background-color: yellow; */
     font-family: Georgia, serif;
 }
 
@@ -153,6 +164,7 @@ body {
 }
 
 .content2 h5 {
+    /* background-color: #F5F4EF; */
     background-color: 	#fff;
     color: #53524A;
     padding: 20px 25px;
@@ -165,6 +177,7 @@ body {
 
 .content2 h5:hover {
     color: blue;
+    /* background-color: #F5F4EF; */
     background-color: 	#53524A;
     color: #fff;
 }
@@ -175,152 +188,11 @@ body {
 }
 
 .dropdown2:hover .btn2 {
+    /* background-color: 	#F5F4EF; */
     background-color: 	#fff;   
     
 }
 
-
-/* ================================================================================================================= */
-
-#menu-bar i {
-    display: none;
-    font-size: 24px;
-    margin: 26px 40px 0px 0px;
-}
-
-#navigationv2 {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-#exit i, .dropdown2v2{
-    color: white;
-    font-size: 50px;
-    margin: 15px;
-}
-
-.dropdown2v2 {
-    margin-top: 10px;
-}
-
-.btn2v2 {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    border: none;
-}
-
-.btn2v2 i {
-    font-size: 38px;
-}
-
-.btn2v2 h5 {
-    color: #53524A;
-    text-decoration: none;
-}
-
-.dropdown2v2 {
-    position: relative;
-    display: inline-block;
-}
-
-.content2v2 {
-    display: none;
-    position: absolute;
-    right: 50px;
-    width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.content2v2 h5 {
-    font-size: 20px;
-    background-color: 	#fff;
-    color: #53524A;
-    padding: 16px 22px;
-    text-decoration: none;
-    font-family: Georgia, serif;
-    display: block;
-    text-align: justify;
-    width: 100%;
-}
-
-
-
-#menu-bar2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-#logopicture2 {
-    height: 160px;
-    margin: 0px;
-}
-
-#logopicture2 img{
-    border-radius: 50%;
-    display: block;
-    height: 70%;
-    margin: 8px auto;
-}
-
-#homepagev2 {
-    width: 100%;
-    padding: 5px;
-    padding-left: 0px;
-}
-
-#homepagev2 a, #aboutusv2 a, .dropdownv2 #museumnav {
-    font-size: 28px;
-    display: flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 2.5%;
-    color: white;
-    
-}
-
-#homepagev2 a, .dropdownv2 #museumnav {
-    border-bottom: 3px solid white;
-}
-
-#aboutusv2 a {
-    border-top: 3px solid white;
-}
-
-#homepagev2 a {
-    margin-top: -10px;
-}
-
-.dropdownv2 {
-    margin: 0;
-    width: 100%;
-}
-
-.contentv2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.contentv2 a {
-    color: white;
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 2.5%;
-    font-style: italic;
-}
 
 .Home {
     height: 100vh;
@@ -329,7 +201,7 @@ body {
 }
 
 #home1::before {
-    background-image: url("Malvar Shrine/Malvar Shrine 5.JPG");
+    background-image: url("Malvar Shrine/Malvar Shrine 5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 10%;
@@ -353,6 +225,7 @@ body {
 }
 
 #home1 h1 {
+    /* font-size: 430%; */
     font-size: 66px;
     color: white;
     font-family: Georgia, serif;
@@ -363,6 +236,21 @@ body {
     padding-left: 5%;
     padding-top:8%;
     padding-bottom: 2%;
+}
+
+#home1 p {
+    color: white;
+    /* font: 140%; */
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    font-family: Circular, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 180%;
+    position: block;
+    width: 35%;
+    padding-left: 7.5%;
+    padding-top: 2%;
 }
 
 #home1 p {
@@ -423,6 +311,7 @@ body {
 }
 
 #descrip-pic {
+    /* background-color: blue; */
     margin: 8% auto auto auto;
     padding: 20px;
     overflow: hidden;
@@ -462,6 +351,7 @@ body {
 
 #map iframe {
     display: block;
+    /* background-color: red; */
     padding: 10px;
     border-radius: 3%;
 }
@@ -498,11 +388,11 @@ body {
 }
 
 
-#virtualtour {
+#vitualtour {
     background-color: #F5F4EF;
 }
 
-#virtualtour #frame {
+#vitualtour #frame {
     margin: auto;
     display: flex;
     justify-content: center;
@@ -512,7 +402,7 @@ body {
     border-bottom: 3px solid black;
 }
 
-#virtualtour iframe {
+#vitualtour iframe {
     border-radius: 2%;
 }
 
@@ -601,6 +491,7 @@ body {
 #aboutus-section {
     display: flex;
     flex-direction: column;
+    /* background-color:green; */
     justify-content: center;
     max-width: 80%;
     height: 67%;
@@ -617,6 +508,7 @@ body {
 }
 
 #aboutus-section1 {
+    /* background-color: aqua; */
     width: 40%;
     padding: 0.5%;
 }
@@ -648,6 +540,7 @@ body {
 
 #aboutus-section2 {
     color: white;
+    /* background-color: aquamarine; */
     width: 60%;
     padding: 0.5%;
     padding-left: 3%;
@@ -681,6 +574,7 @@ body {
 }
 
 #aboutus-section #sec2 {
+    /* background-color: blue; */
     height: 35%;
     width: 100%;
     display: flex;
@@ -714,6 +608,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    /* background-color: red; */
     border-top: 3px solid #d9effb;
 }
 
@@ -827,7 +722,7 @@ body {
         font-size: 18px;
     }
 
-    #virtualtour iframe {
+    #vitualtour iframe {
         width: 866px;
         height: 580px;
     }
@@ -898,454 +793,4 @@ body {
         font-family: Circular, Helvetica, sans-serif;
         font-weight: 400;
     }
-}
-
-
-@media screen and (max-width: 400px) {
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-    }
-    #container {
-        display: flex;
-        width: 100%;
-        height: 10%;
-        position: fixed;
-        z-index: 1000;
-    }
-
-    #navigation {
-        display: flex;
-        flex-direction: row;
-        padding-top: 1%;
-        width: 100%;
-    }
-
-    #container #logopicture img {
-        margin-top: 5px auto;
-    }
-
-    #logopicture {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    #logopicture img{
-        border-radius: 50%;
-        display: block;
-        height: 90%;
-        margin: 8px auto;
-        margin-left: 45%;
-    }
-
-    #navigationv2 {
-        display: none;
-    }
-
-    #navigation {
-        display: none;
-    }
-
-    #menu-bar {
-        width: 10%;
-        margin: -5px 15px 0 0;
-        padding: 0;
-    }
-
-    #menu-bar i {
-        font-size: 32px;
-        display: flex;
-    }
-
-
-    .Home2 {
-        height: 90vh;
-        background-color: #070617;
-    }
-
-    #aboutus-logo img {
-        height: 8vh;
-        margin-top: 2%;
-    }
-    
-
-    #aboutus-section {
-        margin: auto auto;
-        flex-direction: column;
-        max-width: 95%;
-        width: 95%;
-        padding: 0px;
-        margin-top: 2%;
-        height: 80%;
-    }
-
-    #aboutus-section #sec1 {
-        flex-direction: column;
-        
-    }
-
-    #aboutus-section1 {
-        margin: 0px;
-        padding: 0px;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    #aboutus-section1 h1 {
-        text-align: center;
-        margin-top: 2%;
-        margin: 0% auto;
-        padding: 0px;
-        width: 300px;
-        font-size: 26px;
-        color: white;
-    }
-
-    #aboutus-section1 h2{
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        font-size: 15px;
-        margin: 0px;
-        width: 100%;
-    }
-
-    #aboutus-section2 {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        height:300px;
-    }
-
-    #aboutus-section2 ul li {
-        height: 30px;
-        font-size: 12px;
-    }
-
-    #aboutus-section #sec2 {
-        flex-direction: column;
-    }
-
-    #sec2 #icons {
-        height: 30%;
-        width: 100%;
-        padding: 0%;
-        margin-top: 0%;
-        margin-bottom: 0px;
-        margin-left: 10px;
-        font-size: 10px;
-    }
-
-    #sec2 #other-museum {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #other-museum #others {
-        text-align: center;
-        padding-left: 0px;
-        margin: 0px;
-    }
-
-    #others h2 {
-        font-size: 10px;
-        font-family: Circular, Helvetica, sans-serif;
-        font-weight: 400;
-    }
-
-
-    #home1::before {
-        background-position-x: 8%;
-    }
-
-
-    #home1 {
-        height: 100vh;
-        margin-top: 20%;
-    }
-
-
-    #home1 h1 {
-        font-size: 44px;
-        width: 20%;
-        padding-left: 10%;
-        padding-top: 5%;
-        margin: 0;
-    }
-
-    #home1 p {
-        line-height: 150%;
-        position: block;
-        margin-left: 0%;
-        margin: 0 auto;
-        margin-top: 5%;
-        padding: 5%;
-        width: 80%;
-        height: 440px;
-    }
-
-
-    #transportation {
-        flex-direction: column;
-    }
-
-    #description {
-        width: 100%;
-    }
-
-    #description h1 {
-        font-size: 34px;
-        padding-bottom: 2%;
-        padding-top: 10%;
-    }
-
-    #description p {
-        width: 80%;
-        font-size: 14px;
-        margin: 0px;
-        padding: 0px;
-        margin: 5%;
-        padding: 5%;
-        line-height: 180%;
-    }
-
-    #descrip-pic {
-        width: 340px;
-        max-width: 600px;
-        height: 300px;
-
-        margin: 20px;
-        padding: 0px;
-    }
-    
-    #descrip-pic img  {
-        height: 300px;
-        width: 100%;
-    }
-
-    #location {
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
-    
-    #map {
-        margin: 0px;
-        padding: 0px;
-        margin-bottom: 120px;
-    }
-    
-    #map iframe {
-        padding: 0px;
-        width: 350px;
-        height: 450px;
-        margin: auto;
-    }
-    
-    
-    #located {
-        width: 100%;
-        margin-bottom: 50px;
-        
-    }
-    
-    #located h1 {
-        text-align: center;
-        font-size: 34px;
-        padding-bottom: 2%;
-        padding-top: 10%;
-        padding-bottom: 0%;
-        padding-top: 0%;
-    }
-    
-    #located h2 {
-        width: 80%;
-        font-size: 14px;
-        padding-left: 0%;
-        padding-top: 17%;
-        padding-left: 0%;
-        padding-top: 10%;
-        margin-left: 5%;
-    }
-
-
-    #activities h1 {
-        text-align: center;
-        font-size: 34px;
-        width: 100%;
-        padding-top: 2.5%;
-        margin: 0px;
-        margin-left: -20px;
-    }
-    
-    #activities h2 {
-        width: 100%;
-        font-size: 14px;
-        padding-left: 1%;
-        padding-top: 5%;
-        padding-bottom: 2%;
-        margin: 0%;
-    }
-    
-    #activities h3 {
-        font-size: 14px;
-        font-family: Circular, Helvetica, sans-serif;
-        color: #070617;
-        font-weight: 400;
-        position: block;
-        margin-top: 8%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    #act-frame {
-        height: 100%;
-        width: 90%;
-        margin: 0 auto;
-        padding: 2.5%;
-    }
-    
-    #act-list {
-        align-items: center;
-        padding-left: 2%;
-        line-height: 180%;
-        font-size: 15px;
-        font-family: Circular, Helvetica, sans-serif;
-        color: #070617;
-        font-weight: 400;
-    }
-    
-    #act-list p {
-        font-size: 13px;
-        margin-left: 2%;
-        margin-bottom: 1%;
-        line-height: 140%;
-    }
-
-}
-
-
-@media screen and (max-width: 360px) {
-    #home1 h1 {
-        font-size: 40px;
-    }
-
-    #home1 p {
-        font-size: 17px;
-        height: 400px;
-    }
-
-    #descrip-pic {
-        max-width: 320px;
-        width: 100%;
-    }
-
-    #descrip-pic img {
-        height: 360px;
-    }
-    
-    #map {
-        margin-bottom: 90px;
-    }
-    
-    #map iframe {
-        width: 315px;
-        height: 410px;
-        margin: auto;
-    }
-    
-    
-
-    #located {
-        width: 100%;
-        margin-bottom: 50px;
-        
-    }
-    
-    #located h1 {
-        text-align: center;
-        font-size: 34px;
-        padding-bottom: 2%;
-        padding-top: 10%;
-        padding-bottom: 0%;
-        padding-top: 0%;
-    }
-    
-    #located h2 {
-        width: 80%;
-        font-size: 14px;
-        padding-left: 0%;
-        padding-top: 17%;
-        padding-left: 0%;
-        padding-top: 10%;
-        margin-left: 5%;
-    }
-    
-    #virtualtour iframe {
-        height: 70%;
-    }
-
-
-    #activities h1 {
-        font-size: 34px;
-    }
-    
-    #activities h2 {
-        font-size: 13px;
-    }
-    
-    #activities h3 {
-        font-size: 13px;
-    }
-
-    
-    #act-list p {
-        font-size: 11px;
-    }
-
-    #sec2 #other-museum{
-        margin-top: 4%;
-    }
-
-
-    #other-museum #others h2:nth-child(1){
-        padding-left: 5%;
-    }
-
-    #exit i, .dropdown2v2{
-        font-size: 35px;
-    }
-
-    .btn2v2 i {
-        font-size: 28px;
-    }
-
-    #logopicture2 {
-        height: 140px;
-    }
-
-    #homepagev2 a, #aboutusv2 a, .dropdownv2 #museumnav {
-        font-size: 24px;
-        padding: 2.5%;
-    }
-
-    #homepagev2 a {
-        margin-top: -20px;
-    }
-
-    .contentv2 a {
-        font-size: 18px;
-    }
-
 }
